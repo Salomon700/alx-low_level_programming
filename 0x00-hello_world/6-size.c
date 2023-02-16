@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main-this is the main function description
+ * main-This is the main function description
  *
- * Return 0 for successful exit
+ * Return: 0 for successful exit
  */
 
 int main(void)
