@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /* main - assign a random number to the variable n each time it is executed
- * The string Last digit of n
+ *
  * Return: 0
  */
 int main(void)
@@ -13,11 +13,17 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX /2;
 	if(n > 0)
+	{
 		printf("%d is positive\n", n);
-	else
-		if(n == 0)
+	}
+	else if(n == 0)
+	{
 		printf("%d is zero\n", n);
-		else
+	}
+	else
+	{
 		printf("%d is negative\n", n);
+	}
+
 	return (0);
 }
