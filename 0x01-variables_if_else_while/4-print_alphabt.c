@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/*
+/**
  * main - this function outputs all alphabets except q and e
  *
  * Return: this function returns 0 on success
