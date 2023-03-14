@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - prints the minimum number of coins to make 
+ * main - prints the minimum number of coins to make
  * change for an amountof money.
  * @argc: number of command line arguments.
  * @argv: array that contains the program command line argument
