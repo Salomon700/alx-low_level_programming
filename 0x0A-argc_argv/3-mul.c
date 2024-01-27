@@ -4,8 +4,8 @@
 /**
  * main - program that multiplies 2 arguments
  *
- * @argc: number of arguments
- * @argv: array of pointers to arguments
+ * @argc: argument count
+ * @argv: arrray of pointers
  *
  * Return:0
  */
@@ -23,5 +23,5 @@ int main(int argc, char *argv[])
 
 	printf("%d\n", num1 * num2);
 
-	return 0;
+	return (0);
 }
